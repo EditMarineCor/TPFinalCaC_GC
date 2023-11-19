@@ -4,7 +4,7 @@ import json
 # Funcion Alta de Peliculas
 def alta_peli():
     peliculas = cargar_peliculas()
-    id = len(peliculas)
+    id = peliculas[len(peliculas)-1]["id"] + 1
     titulo = input("\nIngresa el titulo de la pelicula: ").title()
     duracion = int(input("\nIngrese la duracion en minutos: "))
     sinopsis = input("\nIngrese una breve sinopsis de la pelicula: ").capitalize()

@@ -8,7 +8,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "PG",
-        "calificacion": [9, 7, 9],
+        "calificacion": [
+            9,
+            7,
+            9
+        ],
         "disponible": true
     },
     {
@@ -20,8 +24,12 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [7, 5, 5],
-        "disponible": true 
+        "calificacion": [
+            7,
+            5,
+            5
+        ],
+        "disponible": true
     },
     {
         "id": 3,
@@ -32,7 +40,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "PG-13",
-        "calificacion": [9, 9, 9],
+        "calificacion": [
+            9,
+            9,
+            9
+        ],
         "disponible": true
     },
     {
@@ -44,7 +56,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "PG",
-        "calificacion": [5, 4, 5],
+        "calificacion": [
+            5,
+            4,
+            5
+        ],
         "disponible": true
     },
     {
@@ -56,7 +72,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [ 4, 2, 4],
+        "calificacion": [
+            4,
+            2,
+            4
+        ],
         "disponible": true
     },
     {
@@ -68,7 +88,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [7, 6, 7],
+        "calificacion": [
+            7,
+            6,
+            7
+        ],
         "disponible": true
     },
     {
@@ -80,7 +104,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "PG-13",
-        "calificacion": [8, 9, 9],
+        "calificacion": [
+            8,
+            9,
+            9
+        ],
         "disponible": true
     },
     {
@@ -92,7 +120,11 @@
         "pais de origen": "Nueva Zelanda",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [8, 9, 8],
+        "calificacion": [
+            8,
+            9,
+            8
+        ],
         "disponible": true
     },
     {
@@ -104,7 +136,11 @@
         "pais de origen": "Estados unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [10, 7, 9],
+        "calificacion": [
+            10,
+            7,
+            9
+        ],
         "disponible": true
     },
     {
@@ -116,7 +152,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "PG",
-        "calificacion": [9, 9, 9],
+        "calificacion": [
+            9,
+            9,
+            9
+        ],
         "disponible": true
     },
     {
@@ -128,7 +168,11 @@
         "pais de origen": "Reino Unido",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [10, 9, 9],
+        "calificacion": [
+            10,
+            9,
+            9
+        ],
         "disponible": true
     },
     {
@@ -140,7 +184,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [9, 8, 9],
+        "calificacion": [
+            9,
+            8,
+            9
+        ],
         "disponible": true
     },
     {
@@ -152,7 +200,11 @@
         "pais de origen": "Estados unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [10, 8, 9],
+        "calificacion": [
+            10,
+            8,
+            9
+        ],
         "disponible": true
     },
     {
@@ -164,7 +216,11 @@
         "pais de origen": "Italia",
         "idioma": "italiano",
         "clasificacion": "PG",
-        "calificacion": [6, 9, 9],
+        "calificacion": [
+            6,
+            9,
+            9
+        ],
         "disponible": true
     },
     {
@@ -188,7 +244,9 @@
         "pais de origen": "Reino Unido",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [9],
+        "calificacion": [
+            9
+        ],
         "disponible": true
     },
     {
@@ -200,7 +258,9 @@
         "pais de origen": "Reino Unido",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [9],
+        "calificacion": [
+            9
+        ],
         "disponible": true
     },
     {
@@ -212,7 +272,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [6, 8, 6],
+        "calificacion": [
+            6,
+            8,
+            6
+        ],
         "disponible": true
     },
     {
@@ -224,7 +288,11 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [6, 6, 5],
+        "calificacion": [
+            6,
+            6,
+            5
+        ],
         "disponible": true
     },
     {
@@ -236,7 +304,23 @@
         "pais de origen": "Estados Unidos",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": [6, 8, 6],
+        "calificacion": [
+            6,
+            8,
+            6
+        ],
+        "disponible": true
+    },
+    {
+        "id": 21,
+        "titulo": "Peloton",
+        "genero": "Acci\u00f3n",
+        "duracion": 135,
+        "sinopsis": "Pelicula de guerra ambientada en la guerra de vietnam",
+        "pais de origen": "Estados Unidos",
+        "idioma": "Ingles",
+        "clasificacion": "PG-14",
+        "calificacion": [],
         "disponible": true
     }
 ]
