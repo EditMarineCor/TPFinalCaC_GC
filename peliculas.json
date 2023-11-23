@@ -261,7 +261,11 @@
         "pais de origen": "Reino Unido",
         "idioma": "ingles",
         "clasificacion": "ATP",
-        "calificacion": 9,
+        "calificacion": [
+            9,
+            6,
+            8
+        ],
         "disponible": true
     },
     {
@@ -291,7 +295,9 @@
         "idioma": "ingles",
         "clasificacion": "ATP",
         "calificacion": [
-            9
+            9,
+            6,
+            8
         ],
         "disponible": true
     },
