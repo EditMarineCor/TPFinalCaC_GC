@@ -2,6 +2,7 @@ import os
 import menu1ABM
 import menu2CalT
 import menu3ListEst
+import menu5Creditos
 
 def menu0Ppl():
     contMP = True
@@ -12,6 +13,7 @@ def menu0Ppl():
         print("#      [1] ABM de peliculas                         #")
         print("#      [2] Calificacion de titulos                  #")
         print("#      [3] Reportes y estadisticas                  #")
+        print("#      [4] Creditos                                 #")
         print("#      [0] Salir del programa                       #")
         print("#                                                   #")
         print("#####################################################")
@@ -29,7 +31,11 @@ def menu0Ppl():
         elif(opcionP == "3"):
             os.system("cls")
             menu3ListEst.menu3ListEst()
-            
+
+        elif(opcionP == "4"):
+            os.system("cls")
+            menu5Creditos.creditos()
+         
         elif(opcionP == "0"):
             os.system("cls")
             print("\n\n############## Cinema+:                ##############")
