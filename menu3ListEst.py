@@ -1,4 +1,12 @@
+import json
 import os
+dirDeTrabajo = os.path.dirname(__file__)
+os.chdir(dirDeTrabajo)
+
+archivo = open("peliculas.json","r")
+peliculas = json.load(archivo)
+for pelicula in peliculas: # Aqui calcula el promedio de las calificaciones de la lista
+        pelicula['calificacion'] = sum(pelicula['calificacion'])/len(pelicula)
 
 def menu3ListEst():
     contLE = True
@@ -12,8 +20,8 @@ def menu3ListEst():
         print("#      [0] Volver                                   #")
         print("#                                                   #")
         print("#####################################################")
-        
         opcionLE = input("\nIngrese una opcion: ")
+        
         if(opcionLE == '1'):
             os.system("cls")
             print("\n\n#####################################################")
@@ -22,8 +30,11 @@ def menu3ListEst():
             print("#                                                   #")
             print("#####################################################")
             
-            def list_pelis():
-                print("Aqui va la funcion listado de peliculas")
+            peliculas.sort(key=lambda x: x['titulo'])
+            for pelicula in peliculas:
+                print(f"{pelicula['titulo']} - {pelicula['genero']} - Calificacion: {pelicula['calificacion']}")
+                print() # Espacio vacio
+            input("Presione cualquier tecla para continuar ....")
         
         elif(opcionLE == '2'):
             os.system("cls")
@@ -33,8 +44,11 @@ def menu3ListEst():
             print("#                                                   #")
             print("#####################################################")
             
-            def mayor_punt():
-                print("Aqui va la funcion mayor puntaje")
+            peliculas.sort(key=lambda x: x['calificacion'], reverse=True)
+            for pelicula in peliculas[0:15]: # Imprimimos las primeras 15 peliculas
+                print(f"Titulo: {pelicula.get('titulo', 'N/A')}, Genero: {pelicula.get('genero', 'N/A')}, Calificación: {pelicula.get('calificacion', 'N/A')}")
+                print() # Espacio vacio
+            input("Presione cualquier tecla para continuar ....")
                 
         elif(opcionLE == '3'):
             os.system("cls")
@@ -44,8 +58,14 @@ def menu3ListEst():
             print("#                                                   #")
             print("#####################################################")
             
-            def disp_plataforma():
-                print("Aqui va la funcion disponibles es plataforma")
+            for pelicula in peliculas:
+                try:
+                    if pelicula['disponible'] == True :
+                        print(f"Titulo: {pelicula['titulo']} - Disponible")
+                except: 
+                    print("\n")
+                print() # Espacio vacio
+            input("Presione cualquier tecla para continuar ....")
                 
         elif(opcionLE == '0'):
             os.system("cls")
@@ -59,3 +79,4 @@ def menu3ListEst():
                 print("Aqui volver al MP")
             contLE = False
                 
+archivo.close()

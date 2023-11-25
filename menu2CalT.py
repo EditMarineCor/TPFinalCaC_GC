@@ -23,6 +23,5 @@ def menu2CalT ():
              
         elif(opcionCalT == '0'):
             os.system("cls")
-                      
             contCalT = False
                 
